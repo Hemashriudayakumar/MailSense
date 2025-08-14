@@ -15,3 +15,16 @@ MailSense is an AI-powered tool that automatically extracts email content from E
 ---
 
 ## 📂 Project Structure
+mailsense/
+├── backend/
+│ ├── main.py # Main FastAPI backend server
+│ ├── drive_service.py # Google Drive integration
+│ ├── preprocess.py # Data cleaning & preprocessing
+│ ├── summarize.py # BART model summarization logic
+│ ├── pdf_export.py # PDF export functionality
+│ ├── requirements.txt # Python dependencies
+│
+├── frontend/
+│ ├── index.html # Web UI
+│ ├── style.css # Styling for frontend
+│ ├── script.js # API integration with backend
